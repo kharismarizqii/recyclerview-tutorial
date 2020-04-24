@@ -1,3 +1,29 @@
 <resources>
     <string name="app_name">RecyclerViewExample</string>
+
+    <string-array name="data_name">
+        <item>Iron Man</item>
+        <item>Captain America</item>
+        <item>Hulk</item>
+        <item>Thor</item>
+        <item>Black Widow</item>
+        <item>Hawkeye</item>
+        <item>Spiderman</item>
+        <item>Doctor Strange</item>
+        <item>Winter Soldier</item>
+        <item>Ant man</item>
+    </string-array>
+
+    <string-array name="data_desc">
+        <item>Iron Man is a superhero who wears a suit of armor. His alter ego is Tony Stark. He was created by Stan Lee, Jack Kirby and Larry Lieber for Marvel Comics in Tales of Suspense #39 in the year 1963 and appears in their comic books. He is also one of the main protagonists in the Marvel Cinematic Universe.</item>
+        <item>Captain America is the alter ego of Steve Rogers, a frail young man enhanced to the peak of human perfection by an experimental serum to aid the United States governments efforts in World War II. Near the end of the war, he was trapped in ice and survived in suspended animation until he was revived in modern times.</item>
+        <item>In his comic book appearances, the character is both the Hulk, a green-skinned, hulking and muscular humanoid possessing a vast degree of physical strength, and his alter ego Dr. Bruce Banner</item>
+        <item>Thor Odinson is the Asgardian God of Thunder, superhero, self-proclaimed protector of Earth and the king of Asgard. Thor made a name for himself as the mightiest warrior on his homeworld and subsequently became well known for his actions on Earth, which included acting as a founding member of the Avengers.</item>
+        <item>Black Widow is a human, trained in the arts of espionage and martial arts, with specialities in hand-to-hand combat and interrogation. She has the athletic prowess of an Olympic class athlete and appears nearly superhuman at times.</item>
+        <item>An expert marksman and fighter, Clint Barton puts his talents to good use by working for S.H.I.E.L.D. as a special agent. The archer known as Hawkeye also boasts a strong moral compass that at times leads him astray from his direct orders.</item>
+        <item>Spider-Man has spider-like abilities including superhuman strength and the ability to cling to most surfaces. He is also extremely agile and has amazing reflexes. Spider-Man also has a spider sense, that warns him of impending danger.</item>
+        <item>Doctor Strange is a practicing magician who draws his powers from mystical entities such as Agamotto, Cyttorak, Ikonn, Oshtur, Raggadorr, and Watoomb, who lend their energies for spells.</item>
+        <item>Once found by the Soviet Union, and HYDRA, Barnes was further experimented on, granting him superhuman abilities, and was subsequently brainwashed and armed with a new cybernetic limb in order to become their operative, known as the Winter Soldier.</item>
+        <item>He is a reformed thief and an electronics expert. He was a member of the Avengers, the Fantastic Four and the Guardians of the Galaxy, the main character in the comic-book series FF and, in 2015 became the title character in the series Ant-Man.</item>
+    </string-array>
 </resources>
