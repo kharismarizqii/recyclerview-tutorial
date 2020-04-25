@@ -2,6 +2,7 @@ package com.kharismarizqii.recyclerviewexample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -18,6 +19,12 @@ class MainActivity : AppCompatActivity() {
         rv_superhero.layoutManager = LinearLayoutManager(this)
         val superHeroAdapter = SuperHeroAdapter(list)
         rv_superhero.adapter = superHeroAdapter
+
+        superHeroAdapter.setOnItemClickCallback(object : SuperHeroAdapter.OnItemClickCallback{
+            override fun onItemClicked(data: SuperHero) {
+                Toast.makeText(this@MainActivity, data.name, Toast.LENGTH_SHORT).show()
+            }
+        })
     }
 
     private fun getListSuperHero(): ArrayList<SuperHero>{
